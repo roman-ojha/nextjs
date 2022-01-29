@@ -1,7 +1,7 @@
 /*
     => pages:
         -> api (for server side rendering)
-        -> _app.js (define main application layout)
+        -> _app.js (entry point, defined main application layout)
         -> index.js (main file)
     => public: (for the public resources)
     => styles:
