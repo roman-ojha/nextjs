@@ -1,21 +1,21 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
+// we have to import 'Link' so that page will not refresh
 
 const index = () => {
-  const router = useRouter();
-  console.log(router.query.data);
   return (
     <>
       <nav>
         <ul className="menu-bar">
           <li>
             <Link href="/">
+              {/* we have to put href inside the link rather then in ancher tag */}
               <a>Home</a>
             </Link>
           </li>
           <li>
             <Link
               href={{
+                // we have to do this to pass the data while routing
                 pathname: "/about",
                 query: {
                   data: "About",

@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu-bar {
+  width: 40vw;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  margin: 5vh;
+}
+.menu-bar li {
+  list-style-type: none;
+}
+.menu-bar li a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition-duration: 100ms;
+}
+.menu-bar li a:hover {
+  background-color: white;
+  color: black;
+}
