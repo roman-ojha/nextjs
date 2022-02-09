@@ -1,6 +1,5 @@
 import Navbar from "../../components/Navbar";
 import styles from "../../styles/blog.module.css";
-import Link from "next/link";
 
 export const getStaticProps = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
@@ -20,9 +19,7 @@ const Blog = ({ data }) => {
         return (
           <div key={index} className={styles.ssr_style}>
             <h3>{elm.id}</h3>
-            <Link href={`/blog/${elm.id}`}>
-              <h2>{elm.title}</h2>
-            </Link>
+            <h2>{elm.title}</h2>
           </div>
         );
       })}

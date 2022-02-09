@@ -2,6 +2,16 @@ import Navbar from "../components/Navbar";
 import styles from "../styles/index.module.css";
 import Head from "next/head";
 
+/*
+  -> in next.js we have:
+      a) getStaticProps
+          -> Fetch data at build time
+      b) getStaticPaths
+          -> Spacify dynamic routes to pre-render pages based on data
+      c) getServerSideProps
+          -> Fetch data on each request
+*/
+
 const index = () => {
   return (
     <>

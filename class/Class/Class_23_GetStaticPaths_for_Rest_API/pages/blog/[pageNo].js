@@ -35,7 +35,6 @@ export const getStaticProps = async (context) => {
 
 const pageNo = ({ data }) => {
   const router = useRouter();
-  const pageNumber = router.query.pageNo;
   return (
     <>
       <Navbar />
