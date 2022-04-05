@@ -1,0 +1,3 @@
+-> npm i -g create-next-app
+-> npx create-next-app <project_name>
+-> yarn create next-app <project_name>
