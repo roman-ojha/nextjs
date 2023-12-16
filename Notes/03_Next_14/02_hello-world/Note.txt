@@ -1,0 +1,5 @@
+*) Project Structure:
+    -> https://youtu.be/FmerxXWD66g?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI
+
+*) Flow of control when we run the application:
+    -> when we run the command npm run dev in the cmd the execution is transfer to './src/app/layout.tsx' then 'RootLayout' component is rendered, when we navigate to localhost:3000 the 'children' prop inside './src/app/layout.tsx' alway refer to the component that is define inside the './src/app/page.tsx' in the './src/app' folder which component is the home component which will get render in the browser.
