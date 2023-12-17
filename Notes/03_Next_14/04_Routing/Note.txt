@@ -1,0 +1,11 @@
+-> First we will delete  'app' folder inside './src' and start from fresh start.
+
+*) Example
+    -> create app folder inside './src'.
+    *> Scenario 1 (for '/' home page):
+        -> create 'page.tsx' inside './src/app' and run 'npm run dev'
+        -> when we will run 'npm run dev' nextJs will automatically populate 'layout.tsx' file inside './src/app' folder
+        
+    *> Scenario 2 (for '/about' & '/profile' page):
+        -> create 'about' folder inside './src/app' and create 'page.tsx' file
+        -> create 'profile' folder inside './src/app' and create 'page.tsx' file
