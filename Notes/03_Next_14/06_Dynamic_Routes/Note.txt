@@ -1,0 +1,3 @@
+*) Example
+    *> Scenario (for '/products', '/products/<id>' page):
+        -> for dynamic route create '[productId]' folder inside './src/app/products'

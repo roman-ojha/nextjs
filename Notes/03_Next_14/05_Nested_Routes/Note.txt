@@ -1,4 +1,3 @@
 *) Example
-    -> create app folder inside './src'.
     *> Scenario 1 (for '/blog', '/blog/first' & '/blog/second' page):
         -> just nest folder inside './src/app/blog'
