@@ -1,0 +1,2 @@
+*) Example
+    *> Scenario (for '/products', '/products/<productId>/reviews/<reviewId>' page)
