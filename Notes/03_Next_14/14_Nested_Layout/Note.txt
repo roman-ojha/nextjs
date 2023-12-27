@@ -1,0 +1,2 @@
+-> https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#nesting-layouts
+-> './src/app/products/[productId]/layout.tsx'
