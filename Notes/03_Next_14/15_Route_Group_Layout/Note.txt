@@ -1,0 +1,2 @@
+-> './src/app/(auth)/(with-auth-layout)/layout.tsx'
+-> './src/app/(auth)/forget-password' route doesn't share the layout create on route group './src/app/(auth)/(with-auth-layout)'
