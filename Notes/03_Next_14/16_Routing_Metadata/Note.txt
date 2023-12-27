@@ -1,0 +1,9 @@
+-> https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#modifying-head
+-> https://nextjs.org/docs/app/api-reference/functions/generate-metadata#generatemetadata-function
+-> https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+*) Two way to configure metadata:
+    1. on layout.tsx
+    2. on page.tsx
+-> './src/app/about/page.tsx'
+
+-> NOTE: you can not export both metadata object and generateMetadata function from the same route segment
