@@ -1,0 +1,2 @@
+-> https://nextjs.org/docs/app/building-your-application/routing/colocation#private-folders
+-> './src/app/_lib'
