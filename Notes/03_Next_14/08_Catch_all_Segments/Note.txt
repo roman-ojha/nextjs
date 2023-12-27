@@ -1,0 +1,6 @@
+*) Example
+    -> https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#catch-all-segments
+    *> Scenario:
+        -> './01_Scenario.png'
+        -> rather then creating a nested dynamic routes what we can do is we can catch all segments
+        -> Create './src/app/docs/[...slug]'
