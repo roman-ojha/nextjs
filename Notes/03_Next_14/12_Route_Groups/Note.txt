@@ -1,0 +1,2 @@
+-> https://nextjs.org/docs/app/building-your-application/routing/colocation#route-groups
+-> Route groups can be created by wrapping a folder in parenthesis: (folderName)
