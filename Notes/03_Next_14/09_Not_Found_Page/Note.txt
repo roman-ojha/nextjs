@@ -1,0 +1,8 @@
+*) Global Not found page:
+    -> './src/app/not-found.tsx'
+
+*) Not found page with certain condition using 'notFound()':
+    -> EX: ex we want to display not found page for the review id greater then 1000
+    *) Route wise not found page:
+        -> define 'not-found.tsx' inside route folder
+        -> EX: './src/app/products/[productId]/reviews/[reviewId]/not-found.tsx'
