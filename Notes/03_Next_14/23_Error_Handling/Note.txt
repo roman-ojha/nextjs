@@ -1,0 +1,11 @@
+-> './src/app/blog/loading.tsx'
+-> Error like:
+    -> any runtime error happen on you component in that case we have 'error.tsx' to handle the error
+    
+
+-> EX:
+    -> creating runtime error on './src/app/products/[productId]/reviews/[reviewId]/page.tsx'.
+    -> building project 'npm run build'
+    -> start production app 'npm run start'
+    -> runtime error on './01_Error_on_Production_Build.png'
+    -> hand error on './src/app/products/[productId]/reviews/[reviewId]/error.tsx'
