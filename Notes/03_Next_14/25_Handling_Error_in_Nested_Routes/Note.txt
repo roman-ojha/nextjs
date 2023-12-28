@@ -1,0 +1,2 @@
+-> https://nextjs.org/docs/app/building-your-application/routing/error-handling#nested-routes
+-> './01_Handling_Error_in_Nested_Routes.png'

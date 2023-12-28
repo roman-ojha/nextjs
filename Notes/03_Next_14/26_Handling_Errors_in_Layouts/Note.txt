@@ -1,0 +1,3 @@
+-> https://nextjs.org/docs/app/building-your-application/routing/error-handling#handling-errors-in-root-layouts
+-> Handling Errors in root layouts: https://nextjs.org/docs/app/building-your-application/routing/error-handling#handling-errors-in-root-layouts
+-> './01_Handling_Error_in_Layout.png'
