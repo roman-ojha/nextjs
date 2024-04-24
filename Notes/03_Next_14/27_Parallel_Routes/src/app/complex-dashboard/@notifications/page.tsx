@@ -1,7 +1,8 @@
+import Card from "@/components/card";
 import type { NextPage } from "next";
 
 const Notification: NextPage = () => {
-  return <></>;
+  return <Card>Notification</Card>;
 };
 
-export default Page;
+export default Notification;
