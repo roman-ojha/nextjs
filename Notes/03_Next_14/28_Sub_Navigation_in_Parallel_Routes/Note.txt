@@ -1,0 +1,2 @@
+-> In case of our complex dashboard the use case would be navigating between the default list of notification and the archived list of notification
+-> We have created the sub-navigation between the archived & default notification inside './src/app/complex-dashboard/@notifications' folder
