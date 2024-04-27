@@ -1,0 +1,17 @@
+-> In case of our complex dashboard the use case would be navigating between the default list of notification and the archived list of notification
+-> We have created the sub-navigation between the archived & default notification inside './src/app/complex-dashboard/@notifications' folder
+-> we have list of slots on complex-dashboard:
+    1. @notification
+        -> only notification slot have the designated component for the archived route
+        -> to prevent 404 error for the other while accessing this routes need to setup default views
+    2. @revenue
+    3. @users
+    
+-> default.tsx:
+    1. './src/app/complex-dashboard/default.tsx'
+        -> this will used as a fallback view for the 'children' slot
+    2. './src/app/complex-dashboard/@users/default.tsx'
+    2. './src/app/complex-dashboard/@revenue/default.tsx'
+    
+-> Now whenever we will navigate to '/complex-dashboard/archived' route then and reload the page the it will load all the default route page and only render the './src/app/complex-dashboard/@notifications/archived/page.tsx' page because we have only defined the routes for '@notification' slot section
+-> Explanation: https://youtu.be/NPtnJ6Ivv9k?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&t=461
