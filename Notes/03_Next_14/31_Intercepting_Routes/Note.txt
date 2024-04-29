@@ -1,2 +1,3 @@
 -> https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes
 -> './01_Intercepting_Routes.png'
+-> './src/app/f1'
