@@ -1,0 +1,25 @@
+### GET Comment
+GET http://localhost:3000/comments
+
+### POST comment
+POST http://localhost:3000/comments
+Content-Type: application/json
+
+{
+    "text": "New comment"
+}
+
+### GET comment by id
+GET http://localhost:3000/comments/3
+
+
+### PATCH updating comment by id
+PATCH http://localhost:3000/comments/3
+Content-Type: application/json
+
+{
+    "text": "Updated comment"
+}
+
+### DELETE comment by id
+DELETE http://localhost:3000/comments/3
