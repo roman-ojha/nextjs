@@ -1,0 +1,5 @@
+-> https://nextjs.org/docs/app/building-your-application/rendering/server-components#static-rendering-default
+
+-> Explanation of Static Rendering: https://youtu.be/WCcqnFRF9YA?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&t=204
+
+-> './src/app/about/page.tsx'

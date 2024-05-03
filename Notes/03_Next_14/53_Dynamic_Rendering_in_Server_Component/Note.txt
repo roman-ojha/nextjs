@@ -1,0 +1,2 @@
+-> https://nextjs.org/docs/app/building-your-application/rendering/server-components#dynamic-rendering
+-> Explanation of Dynamic Rendering: https://youtu.be/-7Rrjy-lfcE?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&t=147
