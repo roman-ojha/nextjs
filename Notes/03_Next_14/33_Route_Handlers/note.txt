@@ -1,0 +1,1 @@
+-> create './src/app/hello/route.ts' to create a route handler
