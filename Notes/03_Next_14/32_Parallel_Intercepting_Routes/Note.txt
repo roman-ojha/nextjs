@@ -1,0 +1,2 @@
+-> Demo: https://youtu.be/mVOvx9eVHg0?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI
+-> './src/app/photo-feed', './src/components/model.tsx'
