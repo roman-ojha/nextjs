@@ -1,1 +1,1 @@
--> './src/app/comments/route.ts', './test.http'
+-> './src/app/comments/[id]/route.ts', './test.http'
