@@ -1,0 +1,9 @@
+*) Suspense:
+    -> './07_Suspense.png'
+    -> from react 18 by wrapping the part of the page such as 'MainContent' area within 'Suspense' Component we instruct react that it doesn't need to wait for the main section data to be fetched to start streaming the HTML for the rest of the page, react will place the placeholder like a loading spinner instead of the complete component.
+    -> Once the server is ready with the data for the 'MainContent' section react send additional HTML to the ongoing stream accompanied by an inline script tag containing the minimal javascript need to correctly position that HTML as a result of this even before the full react library is loaded on the client side the HTML for the main section become visible to the user.
+    -> Now we solve this issue: './08_HTML_streaming_on_Server.png'
+    
+*) Other Challenges:
+    -> './09_Other_Challenges.png'
+    -> To solve this we have Code Splitting: './10_Code_Splitting.png'
