@@ -1,3 +1,4 @@
--> https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#using-context-providers
--> yarn add client-only
--> './src/utils/client-utils.ts', './src/app/client-route/page.tsx', './src/app/server-route/page.tsx'
+-> https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#moving-client-components-down-the-tree
+
+*> Visualizing the './src/app/landing-page/page.tsx' page:
+    -> './02_Visualize_01.png', './03_Visualize.png'
