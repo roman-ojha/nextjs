@@ -1,0 +1,3 @@
+-> https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#interleaving-server-and-client-components
+
+-> './src/app/interleaving', './src/components/server-component-one.tsx', './src/components/server-component-two.tsx', './src/components/client-component-one.tsx', './src/components/client-component-two.tsx'
