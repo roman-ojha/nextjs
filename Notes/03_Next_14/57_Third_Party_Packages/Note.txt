@@ -1,2 +1,3 @@
+-> https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#using-third-party-packages-and-providers
 -> we will going to use 'react-slick' package
 -> './src/app/server-route/page.tsx', './src/app/client-route/page.tsx', './src/components/ImageSlider.tsx'
