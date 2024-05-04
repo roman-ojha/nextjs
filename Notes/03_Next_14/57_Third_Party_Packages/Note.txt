@@ -1,0 +1,2 @@
+-> we will going to use 'react-slick' package
+-> './src/app/server-route/page.tsx', './src/app/client-route/page.tsx', './src/components/ImageSlider.tsx'
