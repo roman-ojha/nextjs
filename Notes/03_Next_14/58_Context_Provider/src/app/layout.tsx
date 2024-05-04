@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+// Now here we will just going to get import the theme provider client component and provide inside the application
+import ThemeProvider from "@/components/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <ThemeProvider>
+        {/* Even tho we wrap the rest of the application with in a client component server component  down the tree will remain server component */}
+        {/* Here it won't convert a server component to client component instead it will define a new client component and invoke it with in the children prop */}
+        <body className={inter.className}>{children}</body>
+      </ThemeProvider>
     </html>
   );
 }

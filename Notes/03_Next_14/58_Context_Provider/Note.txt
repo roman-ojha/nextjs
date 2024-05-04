@@ -1,1 +1,2 @@
 -> https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#using-context-providers
+-> './src/app/layout-context.tsx', './src/app/layout.tsx', './src/components/ThemeProvider.tsx', './src/app/client-route/page.tsx'
