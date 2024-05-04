@@ -2,3 +2,7 @@
 -> Server Actions are asynchronous functions that are executed on the server. They can be used in Server and Client Components to handle form submissions and data mutations in Next.js applications.
 *) Convention:
     -> A Server Action can be defined with the React "use server" directive. You can place the directive at the top of an async function to mark the function as a Server Action, or at the top of a separate file to mark all exports of that file as Server Actions.
+    
+*) Passing Additional Arguments: https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations#passing-additional-arguments
+
+*) Error Handling: https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations#error-handling
