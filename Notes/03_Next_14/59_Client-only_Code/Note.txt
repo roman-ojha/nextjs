@@ -1,1 +1,3 @@
 -> https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#using-context-providers
+-> yarn add client-only
+-> './src/utils/client-utils.ts', './src/app/client-route/page.tsx', './src/app/server-route/page.tsx'
